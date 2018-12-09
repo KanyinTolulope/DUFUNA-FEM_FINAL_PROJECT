@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.upper-nav-right-menu {
+    top: -10px;
+    text-align: right;
+    font-size: 20px;
+    float:right;
+    padding: 0px;
+}
+.upper-nav-right-menu li {
+    list-style:none;
+    display: inline-block;
+    margin: 5px;
+    color: black;
+    border: 1px;
+    border-color: black;
+    padding-right: 20px;
+}
+.upper-nav-right-menu li .a:hover {
+color: green;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 0, 200);
+}
+body {
+    color : moccasin;
+}
+h4 {
+    color: rgb(0, 110, 255);
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 200;
+    font-size:25px;
+    padding: 0px;
+}
+body .background {
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: none;
+    margin: 0, 0;
+    float: center;
+}
+h5 {
+    font-family: "Verdana";
+    color: rgb(0, 110, 255);
+    text-align: center;
+    float: center;
+    margin-top: 140px;
+    border: 2px;
+    font-size: 20px;
+}
+form, .content {
+    text-decoration: black;
+    position: relative;
+    margin: 0;
+    padding: 40px;
+    display: block;
+}
+h2 {
+    color: black;
+}
+input {
+    width: 170px;
+    height: 25px;
+}
+.button {
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover {
+    color: #333;
+}
+.search-bar-wrapper {
+    width: 10px;
+    height: 0px;
+    margin: 0;
+    padding: 0px;
+}
