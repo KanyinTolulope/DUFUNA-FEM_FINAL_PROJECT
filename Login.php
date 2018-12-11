@@ -1,3 +1,6 @@
+<?php 
+ include('server.php');
+?>
 <?php
     //  validation code goes here
     $message ='';
@@ -39,7 +42,7 @@
             <input type="text" name ="email" id="email"> <br><br>
             <label for ="firstname"> Password:</label> <br>
             <input type="password" name ="password" id="password"> <br><br>
-            <button type="button" name="Submit"> OK </button>
+            <button type="button" name="submit"> OK </button>
           </form>
 
       <p> Don't have an account?  <a href ="SignUppage.php"> Sign Up </a>

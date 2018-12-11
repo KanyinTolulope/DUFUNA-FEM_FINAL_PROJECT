@@ -1,0 +1,19 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Existing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="note.css" />
+    <script src="main.js"></script>
+</head>
+<body background ="Bgimage.jpg">
+<header>
+        Welcome to Pen It!
+</header>
+</body>
+</html>

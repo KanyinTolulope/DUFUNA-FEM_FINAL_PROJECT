@@ -1,7 +1,10 @@
+<?php 
+ include('server.php');
+?>
 <?php
-    //  validation code goes here
+   //      validation code goes here
     $message ='';
-   if (isset ($_POST['submit'])) {
+   if (isset($_POST['submit'])) {
        $firstname = $_POST['firstname'];
        $lastname = $_POST['lastname'];
        $email = $_POST['email'];
@@ -11,10 +14,10 @@
        if (empty($firstname) || empty($lastname) || empty($email) || empty($password) || empty($password2)) {
            $message .= '<p class="error"> All fields are required</p>';
        }
-       if ($password != $password2) {
-            $message .= '<p> class="error" Invalid passwords</p>';
+       if ('$password' != '$password2') {
+            $message .= '<p class="error"> Invalid passwords</p>';
        }
-?>
+    ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,7 +34,7 @@
         }
     </style>
     <link rel="stylesheet" type="text/css" media="screen" href="login.css"/>
-    <script src="main.js"></script>
+    <script src="Main.js"></script>
 </head>
 <body background ="Bgimage.jpg"> 
     <header>
@@ -39,20 +42,20 @@
     </header>
     <h3> Sign Up
     </h3>
-    <?php echo $message; ?> 
-      <form method ="POST" action ="SignUppage.php">
+     <?php echo $message; ?> 
+      <form method ="POST" action ="index_1.php">
           
           Firstname: <br>
-          <input type="text" name="firstname" value = "<?php echo $firstname; ?>"> <br><br>
+          <input type="text" name="firstname" value = ""> <br><br>
           Lastname: <br>
-          <input type="text" name="lastname" value = "<?php echo $lastname; ?>"> <br><br>
+          <input type="text" name="lastname" value = ""> <br><br>
           Email: <br>
-          <input type="text" name="email" value = "<?php echo $email; ?>"> <br><br>
+          <input type="text" name="email" value = ""> <br><br>
           Password: <br>
           <input type="password" name="password" > <br><br>
           Confirm password: <br>
           <input type="password" name="password2" > <br><br>
-          <button type="button" name="Submit"> OK </button>
+          <button type="button" name="submit" id="submit"> OK </button>
     <p> Have an account?  <a href ="Login.php"> Login </a> </p>
 </body>
 </html>
